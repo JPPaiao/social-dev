@@ -31,6 +31,10 @@ header {
     flex: 4;
 }
 
+.logo h1 {
+    font-family: var(primary);
+}
+
 .logo img {
     padding: 5px 15px;
 }
