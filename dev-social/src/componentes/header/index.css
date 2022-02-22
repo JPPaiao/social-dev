@@ -1,0 +1,36 @@
+header {
+    padding-top: 5px;
+}
+
+.container-header {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.flex-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.favicons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.favicons .discord,
+.facebook,
+.linkedin {
+    padding: 5px 15px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 4;
+}
+
+.logo img {
+    padding: 5px 15px;
+}

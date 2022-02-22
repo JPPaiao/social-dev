@@ -9,8 +9,8 @@
     --whi: #fff;
     --bla: #1D1D1D;
 
-    --primary: font-family: 'Overpass', sans-serif;
-    --secundary: font-family: 'Maven Pro', sans-serif;
+    --primary: 'Overpass', sans-serif;
+    --secundary: 'Maven Pro', sans-serif;
 }
 
 * {
@@ -24,6 +24,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bla);
 }
 
 code {

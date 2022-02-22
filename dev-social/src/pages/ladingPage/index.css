@@ -1,0 +1,33 @@
+main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.texto {
+    text-align: start;
+    max-width: 370px;
+    margin-top: 200px;
+}
+
+.texto h1 {
+    font-family: var(--primary);
+}
+
+.texto p {
+    margin: 10px 0 25px;
+    font-family: var(--secundary);
+    font-weight: lighter;
+}
+
+.programador {
+    width: 560px;
+    height: 540px;
+}
+
+.blobs {
+    position: absolute;
+    bottom: 0;
+    left: -50px;
+}

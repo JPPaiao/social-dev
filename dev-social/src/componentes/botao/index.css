@@ -1,0 +1,26 @@
+.btn-div {
+    padding: 15px 0;
+}
+
+.btn {
+    font-weight: bold;
+    font-family: var(--secundary);
+    padding: 12px 40px;
+    border: 0;
+    border-radius: 20px;
+    background-color: var(--gre);
+    color: var(--whi);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #166135;
+    color: white;
+}
+
+hr {
+    border-color: var(--gre);
+    border-radius: 10px;
+    width: 50px;
+    margin: 8px 50px;
+}
