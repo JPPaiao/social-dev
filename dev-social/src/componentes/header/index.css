@@ -18,23 +18,36 @@ header {
     align-items: center;
 }
 
-.favicons .discord,
+.git {
+    width: 22px;
+    opacity: 0.77;
+}
+
+.discord,
 .facebook,
 .linkedin {
     padding: 5px 15px;
 }
 
-.logo {
+.logo, .logo > a {
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 4;
+    text-decoration: none;
+    color: var(--whi);
 }
 
 .logo h1 {
-    font-family: var(primary);
+    font-family: var(--primary);
 }
 
 .logo img {
     padding: 5px 15px;
+}
+
+.pesquisar {
+    display: flex;
+    align-items: center;
+    width: 20%;
 }

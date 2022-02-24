@@ -10,8 +10,8 @@ import './index.css';
 function LadingPage() {
     return (
         <>
-            <Header />
-            <main>
+            <Header condicao='false' />
+            <main className='main-lading'>
                 <div className='texto'>
                     <h1>O maior banco de devs do Brasil</h1>
                     <p>Nao importa se front ou back end, fazer networking e muito importante. Faça parte da maior comunidade de desenvolvedores brasileiros.</p>
@@ -20,6 +20,7 @@ function LadingPage() {
                             <Botao>Entre agora</Botao>
                         </Link>
                     </div>
+                    <hr />
                 </div>
                 <div className='programador-div'>
                     <img className='programador' src={programador} alt="programador" />

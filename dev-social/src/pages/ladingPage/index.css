@@ -1,4 +1,4 @@
-main {
+.main-lading {
     display: flex;
     justify-content: space-between;
     max-width: 1000px;
@@ -22,8 +22,15 @@ main {
 }
 
 .btn-div-lading {
-    width: 65%;
-    height: 35%;
+    width: 40%;
+    height: 12%;
+}
+
+hr {
+    border-color: var(--gre);
+    border-radius: 10px;
+    width: 50px;
+    margin: 8px 50px;
 }
 
 .programador {

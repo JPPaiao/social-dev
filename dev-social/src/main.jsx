@@ -9,7 +9,7 @@ import './index.css'
 ReactDOM.render(
     <BrowserRouter>
         <Routes>
-            <Route index element={<App />} />
+            <Route path='/' index element={<App />} />
             <Route path='tabela-devs' element={<TabelaDev />} />
         </Routes>
     </BrowserRouter>,

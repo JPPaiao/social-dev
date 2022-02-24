@@ -1,0 +1,58 @@
+.dev {
+    width: 100%;
+}
+
+.info-dev {
+    padding: 25px;
+    background-color: rgb(53, 53, 53);
+    border-radius: 10px;
+}
+
+.descricao {
+    margin: 15px 0 20px;
+    font-family: var(--secundary);
+}
+
+.descricao h2 {
+    font-size: 25px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn-div-detalhes {
+    width: 50%;
+    height: 30px;
+}
+
+.btn-div-devs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding: 15px 0;
+}
+
+.editar-btn, .deletar-btn {
+    color: black;
+    width: 40%;
+    height: 30px;
+}
+
+.editar-btn button {
+    background-color: var(--yel);
+}
+
+.deletar-btn button {
+    background-color: var(--red);
+}
+
+.editar-btn button:hover {
+    background-color: #917901;
+}
+
+.deletar-btn button:hover {
+    background-color: #8b1414;
+}

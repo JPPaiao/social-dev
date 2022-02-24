@@ -1,15 +1,11 @@
 import React from 'react'
 
-import Botao from '../botao/index';
-// import { Container } from './styles';
+import './index.css'
 
 function Pesquisa() {
     return (
         <div className="pesquisa">
-            <input className='inp' type="text" />
-            <div className="btn-div">
-                <Botao>Adicionar desenvolvedor</Botao>
-            </div>
+            <input className='inp' type='text' placeholder='Buscar' />
         </div>
     )
 }
