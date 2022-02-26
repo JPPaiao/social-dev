@@ -43,16 +43,22 @@
 
 .editar-btn button {
     background-color: var(--yel);
+    color: black;
+    font-weight: bold;
 }
 
 .deletar-btn button {
     background-color: var(--red);
+    color: black;
+    font-weight: bold;
 }
 
 .editar-btn button:hover {
     background-color: #917901;
+    color: black;
 }
 
 .deletar-btn button:hover {
     background-color: #8b1414;
+    color: black;
 }

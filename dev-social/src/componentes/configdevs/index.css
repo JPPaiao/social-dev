@@ -1,0 +1,70 @@
+.container-config {
+    width: 100%;
+    height: 610px;
+    position: absolute;
+    background-color: rgba(59, 59, 59, 0.26);
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.container-conteudo {
+    max-width: 350px;
+    margin: 10% auto;
+    padding: 20px 10px;
+    border-radius: 10px;
+    background-color: #363636;
+    font-family: var(--primary);
+}
+
+.conteudo h2 {
+    font-size: 1.7rem;
+    font-weight: normal;
+}
+
+.inputs-div {
+    margin: 20px auto 25px;
+}
+
+.inp-add {
+    text-align: start;
+    max-width: 200px;
+    margin: 5px auto;
+}
+
+.inp-add h3 {
+    font-weight: normal;
+    font-size: 0.9rem;
+    padding-bottom: 5px;
+}
+
+.p {
+    max-width: 250px;
+    margin: 20px auto;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.btns {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.btn-cancel, .btn-edit {
+    margin: 0 15px;
+    width: 25%;
+    height: 27px;
+
+}
+
+.btn-cancel button {
+    background-color: var(--whi);
+    color: black;
+    font-weight: bold;
+}
+
+.btn-cancel button:hover {
+    background: rgb(185, 185, 185);
+    color: black;
+}

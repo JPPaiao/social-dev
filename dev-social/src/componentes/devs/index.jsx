@@ -1,19 +1,15 @@
-import React from 'react';
+import React, { useEffect, useLayoutEffect, useState } from 'react';
 
 import Botao from '../botao/index'
-import Configdevs from '../configdevs/index'
 import imagemDesenvolvedor from '../../assets/imagemDesenvolvedor.png'
 import iconeLinkedin from '../../assets/iconeLinkedin.png'
 import iconeGithub from '../../assets/iconeGithub.png'
+import Configdevs from '../configdevs/index'
 import './index.css'
 
-function Devs({ users }) {
-    const deleteDev = (devId) => {
-        if (devId === users.id) {
-            console.log(users.id)
-            return users.id
-        }
-    }
+function Devs({ users, remove }) {
+    const [ok, setOK] = useState(false)
+    const [fun, setFun] = useState('')
 
     return (
         <div>
@@ -46,12 +42,21 @@ function Devs({ users }) {
                 </div>
                 <div className="btn-div-devs">
                     <div className="editar-btn">
-                        <Botao>Editar</Botao>
+                        <Botao onClick={() => {
+                            setOK(true)
+                            setFun('Editar')
+                        }}>Editar</Botao>
                     </div>
                     <div className="deletar-btn">
-                        <Botao onClick={() => deleteDev(users.id)} >Deletar</Botao>
+                        <Botao onClick={() => {
+                            setOK(true)
+                            setFun('Deletar')
+                        }}>Deletar</Botao>
                     </div>
                 </div>
+            </div>
+            <div className="configs">
+                {ok ? <Configdevs id={users.id} setok={setOK} remove={remove} fun={fun} /> : null}
             </div>
         </div>
     )
