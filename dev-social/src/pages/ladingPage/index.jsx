@@ -5,7 +5,7 @@ import Header from '../../componentes/header/index'
 import Botao from '../../componentes/botao/index'
 import programador from '../../assets/programador.png'
 import blobs from '../../assets/blobs.png'
-import './index.css';
+import './index.css'
 
 function LadingPage() {
     return (
@@ -33,4 +33,4 @@ function LadingPage() {
     )
 }
 
-export default LadingPage;
+export default LadingPage

@@ -5,7 +5,7 @@ import './index.css'
 function Pesquisa() {
     return (
         <div className="pesquisa">
-            <input className='inp' type='text' placeholder='Buscar' />
+            <input className='inp' type='text' placeholder='&#128269; Buscar' />
         </div>
     )
 }

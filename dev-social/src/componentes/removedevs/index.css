@@ -1,0 +1,51 @@
+.conteudo h2 {
+    font-size: 1.7rem;
+    font-weight: normal;
+}
+
+.inputs-div {
+    margin: 20px auto 25px;
+}
+
+.inp-add {
+    text-align: start;
+    max-width: 200px;
+    margin: 5px auto;
+}
+
+.inp-add h3 {
+    font-weight: normal;
+    font-size: 0.9rem;
+    padding-bottom: 5px;
+}
+
+.p {
+    max-width: 250px;
+    margin: 20px auto;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.btns {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.btn-cancel, .btn-edit {
+    margin: 0 15px;
+    width: 25%;
+    height: 27px;
+
+}
+
+.btn-cancel button {
+    background-color: var(--whi);
+    color: black;
+    font-weight: bold;
+}
+
+.btn-cancel button:hover {
+    background: rgb(185, 185, 185);
+    color: black;
+}
