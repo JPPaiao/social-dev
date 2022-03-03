@@ -26,7 +26,7 @@ function Configdevs({ user, setok, fun, add }) {
             } else if (i.id == 'cargo') {
                 cargo += i.value
             } else if (i.id == 'foto') {
-                foto += i.value
+                foto = i.value
             }
         }
 
