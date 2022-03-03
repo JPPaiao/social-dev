@@ -18,7 +18,7 @@ function Configdevs({ user, setok, fun, add }) {
         let inp = document.getElementsByClassName('inp')
         let nome = ''
         let cargo = ''
-        let foto = ''
+        let foto = 'https://ps.w.org/simple-user-avatar/assets/icon-256x256.png?rev=2413146'
 
         for (let i of inp) {
             if (i.id == 'nome') {
