@@ -18,13 +18,13 @@ header {
     align-items: center;
 }
 
-.git {
+.git, .instagram {
     width: 22px;
     opacity: 0.77;
 }
 
-.discord,
-.facebook,
+.github,
+.instagram,
 .linkedin {
     padding: 5px 15px;
 }

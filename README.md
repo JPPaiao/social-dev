@@ -1,2 +1,3 @@
 # social-dev
-Uma rede onde pode adicionar e excluir desenvolvedor 
+Um site feito em React.js, onde pode adicionar e remover usuários.
+Também fiz uma lading page de começo.

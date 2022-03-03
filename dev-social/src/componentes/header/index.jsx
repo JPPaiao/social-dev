@@ -2,8 +2,7 @@ import React, { Link } from 'react'
 
 import Pesquisa from '../pesquisa/index';
 import balleriniDevs from '../../assets/balleriniDevs.png'
-import discord from '../../assets/discord.svg'
-import facebook from '../../assets/facebook.svg'
+import intagram from '../../assets/instagram.png'
 import linkedin from '../../assets/linkedin.svg'
 import './index.css'
 
@@ -13,14 +12,14 @@ function Header({ condicao }) {
             <div className='container-header'>
                 <div className='flex-header'>
                     <div className='favicons'>
-                        <div className='discord'>
+                        <div className='github'>
                             <a href="https://github.com/JPPaiao" target="_blank">
                                 <img className='git' src="https://img.icons8.com/metro/26/26e07f/github.png"/>
                             </a>
                         </div>
-                        <div className='facebook'>
-                            <a href="https://www.facebook.com/jp.paiao.102" target="_blank">
-                                <img src={facebook} alt="facebooke" />
+                        <div className='instagram'>
+                            <a href="https://www.instagram.com/jotape_paiao/" target="_blank">
+                                <img src={intagram} alt="instagram" />
                             </a>
                         </div>
                         <div className='linkedin'>
