@@ -26,19 +26,19 @@ function Dev({ user, remove, add }) {
                 <div className="info-dev">
                     <div className="foto">
                         {user.foto}
-                        <hr />
+                        <hr className='horizontal' />
                     </div>
                     <div className="descricao">
                         <h2>{user.nome}</h2>
                         <p>{user.profissão}</p>
                     </div>
                     <div className='links'>
-                        <div className="github">
+                        <div className="github-user">
                             <a href="#">
                                 <img src={iconeGithub} alt="github" />
                             </a>
                         </div>
-                        <div className="linkdin">
+                        <div className="linkdin-user">
                             <a href="#">
                                 <img src={iconeLinkedin} alt="linkedin" />
                             </a>

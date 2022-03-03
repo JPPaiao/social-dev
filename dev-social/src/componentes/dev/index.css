@@ -62,3 +62,8 @@
     background-color: #8b1414;
     color: black;
 }
+
+.horizontal {
+    width: 50%;
+    margin: 10px auto;
+}
