@@ -3,7 +3,9 @@ import React from 'react'
 import Botao from '../botao/index'
 import './index.css'
 
-function Configdevs({ id, setok, fun, add }) {
+function Configdevs({ user, setok, fun, add }) {
+    let titulo = (fun === 'Editar') ? 'Editar desenvolvedor' : 'Adicionar desenvolvedor'
+
     function chamarFun() {
         if (fun === 'Adicionar') {
             return adicionar()
@@ -71,11 +73,13 @@ function Configdevs({ id, setok, fun, add }) {
         <div className='container-config'>
             <div className="container-conteudo">
                 <div className="conteudo">
-                    <h2>{fun === 'Editar' ? 'Editar desenvolvedor' : 'Adicionar desenvolvedor'}</h2>
+                    <h2>{titulo}</h2>
                     <div className="inputs-div">
                         <div className="inp-add">
                             <h3>Nome:</h3>
-                            <input type="text" className='inp' id='nome' />
+                            <input type="text" className='inp' id='nome' placeholder={
+                                (fun === 'Editar') ? user.nome : ''
+                            } />
                         </div>
                         <div className="inp-add">
                             <h3>Avatar:</h3>
@@ -83,15 +87,17 @@ function Configdevs({ id, setok, fun, add }) {
                         </div>
                         <div className="inp-add">
                             <h3>Cargo:</h3>
-                            <input type="text" className='inp' id='cargo' />
+                            <input type="text" className='inp' id='cargo' placeholder={
+                                (fun === 'Editar') ? user.profissão : ''
+                            } />
                         </div>
                         <div className="inp-add">
                             <h3>GitHub:</h3>
-                            <input type="text" className='inp' />
+                            <input type="text" className='inp' placeholder='https://github.com/'/>
                         </div>
                         <div className="inp-add">
                             <h3>Linkedin:</h3>
-                            <input type="text" className='inp' />
+                            <input type="text" className='inp' placeholder='https://www.linkedin.com/in/' />
                         </div>
                     </div>
                 </div>

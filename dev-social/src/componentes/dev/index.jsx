@@ -16,7 +16,7 @@ function Dev({ user, remove, add }) {
             case 'Deletar':
                 return <RemoveDev id={user.id} remove={remove} setok={setOK}/>
             case 'Editar':
-                return <Configdevs id={user.id} fun={fun} setok={setOK} add={add} />
+                return <Configdevs user={user} fun={fun} setok={setOK} add={add} />
         }
     }
 
